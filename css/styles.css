@@ -13,12 +13,22 @@ body {
     font-weight: 300!important;
 }
 
+.title {
+  font-size: 80px;
+}
+
+.subtitle {
+  font-size: 40px;
+}
+
 .bg-image {
-    background-image: url('https://www.xtrafondos.com/wallpapers/paisaje-digital-en-atardecer-5846.jpg');
+    background-image: url('../img/image00011.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-blend-mode: soft-light;
     height: 100vh;
+    background-color: rgba(22, 22, 22, 0.622);
 }
 
 .block {
@@ -53,12 +63,7 @@ body {
 
   
 .bg-inverse {
-    transition: all .3s;
-    background-color: var(--secondary-color) !important;
-}
-
-.bg-transparent {
-    transition: ease-in-out all .3s!important;
+    background-color: var(--primary-color) !important;
 }
 
 .card-slider {
@@ -166,6 +171,14 @@ body {
   .bg-main {
       background-color: var(--primary-color);
   }
+
+  .text-secondary2 {
+    color: #292929;
+  }
+
+  .bg-secondary2 {
+    background-color: var(--secondary-color);
+  }
   
   .mobile-view .clone-view a:hover {
     color: var(--primary-color);
@@ -205,9 +218,25 @@ body {
     text-decoration: none;
   }
 
+  .img-hover {
+    transition: all .3s ease-in-out;
+  }
+
+  .img-hover:hover {
+    transform: scale(1.1);
+  }
+
 @media (max-width: 768px) {
     .card-slider {
         width: 100%;
+    }
+
+    .title {
+      font-size: 45px;
+    }
+
+    .subtitle {
+      font-size: 30px;
     }
 }  
   
