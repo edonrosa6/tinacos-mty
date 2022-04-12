@@ -11,10 +11,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b862c27f27.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="icon" type="image/ico" href="./favicon.ico">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <div class="page-wrap fixed-top">
-        <div class="bg-main">
+        <div class="bg-secondary2">
             <div class="container">
                 <div class="text-white d-flex justify-content-between">
                     <div>
@@ -41,7 +59,8 @@
         <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container navigate-bar">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logotipo-tinacos-mty.svg" class="img-fluid" width="150">
+                    <img src="img/logotipo-tinacos-mty.svg" class="img-fluid" id="brand" width="150">
+                    <img src="img/tinacos-logo.JPG" class="img-fluid d-none img-logo" id="brand-bg" width="150">
                 </a>
                 <div class="d-inline-block d-lg-none ml-md-0 ml-auto py-3">
                     <img src="img/bar.svg" class="js-toggle" style="width: 38px;" alt="barra svg"> 
@@ -73,18 +92,30 @@
     <section class="bg-image">
         <div class="d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
             <div class="container text-center">
-                <h1 class="text-white">TINACOS MONTERREY</h1>
-                <p class="lead text-white">¡Paga con tarjeta en la puerta de tu casa al recibir tu tinaco!</p>
+                <h1 class="text-white title">TINACOS MONTERREY</h1>
+                <p class="text-white subtitle">¡Paga con tarjeta en la puerta de tu casa al recibir tu tinaco!</p>
             </div>     
         </div>
     </section>
 
-    <div></div>
-
-    <section class="py-5" id="servicios">
+    <section style="padding-top: 115px; padding-bottom: 115px;" id="servicios">
         <div class="container">
-            <h2>"Compra seguro, compra Monterrey"</h2>
-            <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptate debitis hic dolorem velit laboriosam nam, in qui, nulla exercitationem quasi earum, vitae est placeat aperiam necessitatibus aliquam quae accusantium.</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>"Compra seguro, compra Monterrey"</h2>
+                    <p class="py-3 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptate debitis hic dolorem velit laboriosam nam, in qui, nulla exercitationem quasi earum, vitae est placeat aperiam necessitatibus aliquam quae accusantium.</p>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <img src="img/image00002.jpeg" class="img-fluid img-hover" style="border-radius: 15px;">
+                </div>
+                <div class="col-md-4 mt-2">
+                    <img src="img/image00003.jpeg" class="img-fluid img-hover" style="border-radius: 15px;">
+                </div>
+                <div class="col-md-4 mt-2">
+                    <img src="img/image00004.jpeg" class="img-fluid img-hover" style="border-radius: 15px;">
+                </div>
+            </div>
+         
         </div>
     </section>
 
@@ -116,10 +147,38 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.092057439822!2d-100.23072668550591!3d25.66824291872831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662c03adcb91513%3A0x31796dd6d3a8a8ab!2sEje%20Metropolitano%2014%203183-3059%2C%20Mirasol%2C%2067170%20Guadalupe%2C%20N.L.!5e0!3m2!1ses-419!2smx!4v1649631251397!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
     </section>
 
-    <footer>
+    <footer class="bg-main py-5">
         <div class="container">
-            <div class="col-6 col-md-4">
-                <div>Tinacos Monterrey</div>
+            <div class="row">
+                <div class="col-6 col-md-4 text-md-left text-center">
+                    <div>
+                        <h3 class="font-bold h6">Servicios</h3>
+                        <p class="text-secondary2 text-md-left text-center">Empresa dedicada a la compra y venta de tinacos en Monterrey, Nuevo León.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-md-left text-center">
+                    <div>
+                        <h3 class="h6">Sucursales</h3>
+                        <p class="text-secondary2 text-md-left text-center">Contamos con diferentes sucursales en todo Monterrey, Nuevo León.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-md-left text-center mx-auto">
+                    <div>
+                        <h3 class="h6">Redes Sociales</h3>
+                        <div class="d-flex d-md-block justify-content-center" style="font-size: 25px">
+                            <a href="#" style="color: #000;">      
+                                <i class="fab fa-facebook mr-2"></i>
+                            </a>
+                            <a href="#" style="color: #000;">                           
+                                <i class="fab fa-instagram mr-2"></i>
+                            </a>
+                            <a href="#" style="color: #000;">       
+                                <i class="fab fa-whatsapp mr-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </footer>
@@ -135,12 +194,27 @@
     <script>
       $(window).scroll(function() {
           if ($("#menu").offset().top > 56) {
-              $("#menu").addClass("bg-inverse");
-              $("#menu").removeClass("bg-transparent");
+            $("#menu").addClass("bg-inverse");
+            $("#menu").removeClass("bg-transparent");
+            $("#brand").addClass("d-none");
+            $("#brand-bg").removeClass("d-none");
           } else {
-              $("#menu").removeClass("bg-inverse");
+            $("#brand").removeClass("d-none");
+            $("#menu").removeClass("bg-inverse");
+            $("#brand-bg").addClass("d-none");
           }
         });
+    </script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+        });  
+
     </script>
 </body>
 </html>
