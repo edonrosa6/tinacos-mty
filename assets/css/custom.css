@@ -102,9 +102,7 @@
     }
 
     .backg-image {
-        background-image: url("../../img/tinacomty-fondo.JPG")!important;
-        background-repeat: no-repeat!important;
-        background-position-y: center!important;
-        background-position-x: center!important;
+        background-size: 450px;
+        background-repeat: no-repeat;
     }
 }
