@@ -53,7 +53,7 @@
 }
 
 .border-img-bg {
-    border-bottom: 120px solid var(--primary-color);
+    border-bottom: 125px solid var(--primary-color);
 }
 
 .img-size {
@@ -80,13 +80,17 @@
         font-size: 22px;
     }
 
+    .border-img-bg {
+        border-bottom: 85px solid var(--primary-color)!important;
+    }
+
     .fs-numero2 {
         font-size: 16px;
+        text-align: center;
     }
 
     .btn-catalogo {
         padding: 8px 10px!important;
-
     }
 
     .border-img-bg {
@@ -94,7 +98,7 @@
     }
 
     .g-pb-20 {
-        padding-bottom: 2px!important;
+        padding-bottom: 55px!important;
     }
 
     .mb-5 {
