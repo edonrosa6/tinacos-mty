@@ -29,8 +29,18 @@
     height: 100vh;
 }
 
+
+span.color-secundario > a {
+    color: var(--primary-color)!important;
+}
+
 .color-secundario {
     color: var(--primary-color); 
+}
+
+
+span > a {
+    color: #fff!important;
 }
 
 .btn-sucursal {
