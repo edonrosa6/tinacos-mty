@@ -29,6 +29,10 @@
     height: 100vh;
 }
 
+.color-secundario {
+    color: var(--primary-color); 
+}
+
 .btn-sucursal {
     background-color: var(--primary-color);
     color: #fff;
