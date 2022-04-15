@@ -4,6 +4,6 @@ gsap.from('.animacion', {
     toggleActions: "restart pause restart none"
   },
   duration: 1.5, 
-  y: 200,
+  x: 500,
   opacity: 0
 });
