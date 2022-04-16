@@ -3,7 +3,7 @@
 
 <head>
   <!-- Title -->
-  <title>Tinacos Monterrey</title>
+  <title>Tinacos Monterrey - Catálogo</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -39,50 +39,78 @@
 
   <!-- CSS Customization -->
   <link rel="stylesheet" href="./assets/css/custom.css">
+  <link rel="canonical" href="https://www.tinacosmty.com.mx/catalogo">
 </head>
 
 <body>
   <main>
-    <!-- Header -->
-    <header>
-      <div>
-        <nav class="blur-navbar navbar navbar-expand-lg scrolling-navbar fixed-top g-bg-primary shadow">
-          <div class="container">
-            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
-              <span class="hamburger hamburger--slider">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-              </span>
-              </span>
-            </button>
-
-            <a href="./index.html" class="navbar-brand d-flex">
-              <img src="./img/logotipo-tinacos-mty.jpg" class="img-fluid" width="180">
-            </a>
-
-            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
-              <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
-                <!-- Intro -->
-                <li class="nav-item hover-link g-mx-10--lg g-mx-15--xl">
-                  <a href="./index.html" class="nav-link g-py-7 g-px-0">Inicio</a>
-                </li>
-
-                <li class="nav-item hover-link g-mx-10--lg g-mx-15--xl">
-                  <a href="catalogo.html" class="nav-link g-py-7 g-px-0 g-color-white">Catálago</a>
-                </li>
-
-                <li class="nav-item hover-link g-mx-10--lg g-mx-15--xl">
-                  <a href="sucursales.html" class="nav-link g-py-7 g-px-0">Sucursales</a>
-                </li>
-              </ul>
+      <!-- Header -->
+      <header>
+        <div>
+          <nav class="blur-navbar navbar navbar-expand-lg scrolling-navbar fixed-top g-bg-primary" style="border-bottom: 15px solid #5c5a54;">
+            <div class="container">
+              <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                <span class="hamburger hamburger--slider">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+                </span>
+                </span>
+              </button>
+  
+              <a href="./" class="navbar-brand d-flex">
+                <img src="./img/logotipo-tinacos-mty.jpg" width="180" height="45" alt="logotipo de tinacos monterrey">
+              </a>
+  
+              <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
+                  <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
+                      <!-- Intro -->
+                      <li class="nav-item hover-link g-mx-10--lg g-mx-15--xl">
+                        <a href="./" class="nav-link g-py-7 g-px-0">Inicio</a>
+                      </li>
+  
+                      <li class="nav-item hover-link g-mx-10--lg g-mx-15--xl">
+                        <a href="marcas" class="nav-link g-py-7 g-px-0">Nuestras Marcas</a>
+                      </li>
+  
+                      <li class="nav-item dropdown g-mx-20--lg">
+                        <a href="#!" class="nav-link dropdown-toggle g-px-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+                        <!-- Submenu (Bootstrap) -->
+                        <ul class="dropdown-menu rounded-0 g-text-transform-none g-brd-none g-brd-top g-brd-primary g-brd-top-2 g-mt-20 g-mt-10--lg--scrolling">
+                          <li class="dropdown-item active">
+                            <div>
+                              <p>
+                                Tinacos monterrrey es una empresa mexicana dedicada<br>a brindars los mejores productos de almacenamiento,<br> conservación, cuidado del agua.
+                                Somos una <br>distribuidoraoficial de las marcas más<br> famosas de México en productos de<br> almacenamiento de agua.
+                              </p>
+                            </div>
+                        
+                          </li>
+                        </ul>
+                        <!-- End Submenu (Bootstrap) -->
+                      </li>
+      
+      
+                      <li class="nav-item hover-link g-mx-10--lg g-mx-15--xl">
+                        <a href="catalogo" class="nav-link g-py-7 g-px-0 g-color-white">Catálago</a>
+                      </li>
+      
+                      <li class="nav-item hover-link g-mx-10--lg g-mx-15--xl">
+                        <a href="sucursales" class="nav-link g-py-7 g-px-0">Sucursales</a>
+                      </li>
+  
+                      <li class="nav-item hover-link g-mx-10--lg g-mx-15--xl">
+                        <a href="contacto" class="nav-link g-py-7 g-px-0">Contacto</a>
+                      </li>
+                      
+                    </ul>
+              </div>
             </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- End Header -->
+          </nav>
+        </div>
+      </header>
+      <!-- End Header -->
 
-    <section class="g-py-100 shadow g-bg-primary">
+    <!-- <section class="g-py-100 shadow g-bg-primary">
       <div class="g-bg-secondary2">
         <h1 class="text-center g-color-white"><span class="font-weight-light">Lista de Precios: </span><strong>7 de abril al 22 de abril 2022</strong></h1>
       </div>
@@ -109,7 +137,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Our Recent Projects -->
     <section class="g-py-100" id="productos">
@@ -292,48 +320,72 @@
       <div class="container">
         <div class="row">
           <!-- Footer Content -->
-          <div class="col-lg-6 col-md-6 g-mb-40 g-mb-0--lg">
+          <div class="col-lg-4 col-md-6 g-mb-40 g-mb-0--lg">
             <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
               <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Sobre Nosotros</h2>
             </div>
-
-            <p>Somos una compañía de compra y venta de tinacos</p>
+            <p style="color: gray;">
+              Tinacos monterrrey es una empresa mexicana dedicada a brindar los mejores productos de almacenamiento, conservación,
+              cuidado del agua.
+            </p>
+            <p style="color: gray;">
+              Somos una distribuidora oficial de las marcas más famosas de México en productos de almacenamiento de agua.
+            </p>
           </div>
           <!-- End Footer Content -->
 
           <!-- Footer Content -->
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
               <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Contactos</h2>
             </div>
 
-            <address class="g-bg-no-repeat g-font-size-12 mb-0" style="background-image: url(./assets/img/maps/map2.png);">
-          <!-- Phone -->
-          <div class="d-flex g-mb-20">
-            <div class="g-mr-10">
-              <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
-                <i class="fa fa-phone"></i>
-              </span>
-            </div>
-            <p class="mb-0">Teléfono <br> 81 3597 6127</p>
-          </div>
-          <!-- End Phone -->
+            <address class="g-bg-no-repeat g-font-size-12 mb-0 mb-5" style="background-image: url(./assets/img/maps/map2.png);">
+              <!-- Phone -->
+              <div class="d-flex g-mb-20">
+                <div class="g-mr-10">
+                  <span class="g-color-white-opacity-0_6" style="font-size: 20px;">
+                    <i class="fa fa-phone"></i>
+                  </span>
+                </div>
+                <p class="mb-0">Teléfono <br> 81 3597 6127</p>
+              </div>
+              <!-- End Phone -->
 
-          <!-- Email and Website -->
-          <div class="d-flex g-mb-20">
-            <div class="g-mr-10">
-              <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
-                <i class="fa fa-globe"></i>
-              </span>
-            </div>
-            <p class="mb-0">
-              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:tinacosmonterrey@gmail.com">Correos</a>
-              <br>
-              <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">tinacosmonterrey@gmail.com</a>
-            </p>
-          </div>
-          <!-- End Email and Website -->
+              <!-- Email and Website -->
+              <div class="d-flex g-mb-20">
+                <div class="g-mr-10">
+                  <span class="g-color-white-opacity-0_6" style="font-size: 20px;">
+                    <i class="fa fa-globe"></i>
+                  </span>
+                </div>
+                <p class="mb-0">
+                  <span class="g-color-white-opacity-0_8 g-color-white--hover">Correos</span>
+                  <br>
+                  <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:tinacosmonterrey@gmail.com">tinacosmonterrey@gmail.com</a>
+                </p>
+              </div>
+              <!-- End Email and Website -->
             </address>
+          </div>
+          <!-- End Footer Content -->
+
+          <!-- Footer Content -->
+          <div class="col-lg-4 col-md-6 g-mb-40 g-mb-0--lg">
+            <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+              <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Redes Sociales</h2>
+            </div>
+            <div style="font-size: 20px;">
+              <a href="https://www.facebook.com/Tinacos-Monterrey-100861129267752/" class="mr-3 g-color-white">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/tinacosmty/" class="mr-3 g-color-white">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="https://api.whatsapp.com/send/?phone=528135976127" class="mr-3 g-color-white">
+                <i class="fa fa-whatsapp"></i>
+              </a>
+            </div>
           </div>
           <!-- End Footer Content -->
         </div>
@@ -348,24 +400,7 @@
           <div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
             <div class="d-lg-flex">
               <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2022 &copy; Todos los derechos reservados.</small>
-             
             </div>
-          </div>
-
-          <div class="col-md-4 align-self-center">
-            <ul class="list-inline text-center text-md-right mb-0">
-              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook">
-                <a href="https://www.facebook.com/Tinacos-Monterrey-100861129267752/" class="g-color-white-opacity-0_5 g-color-white--hover">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Instagram">
-                <a href="https://www.instagram.com/tinacosmty/" class="g-color-white-opacity-0_5 g-color-white--hover">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

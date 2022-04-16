@@ -88,14 +88,15 @@ span > a {
 
 .btn-catalogo {
     border-radius: 35px; 
-    border: 2px solid var(--primary-color); 
-    color: var(--primary-color);
+    border: 2px solid #fff; 
+    color: #fff;
     padding: 10px 15px!important;
 }
 
 .btn-catalogo:hover {
-    background-color: var(--primary-color);
+    background-color: #5c5a54;
     color: #fff;
+    border: 2px solid #5c5a54;
 }
 
 .hover-link:hover { 
@@ -103,7 +104,7 @@ span > a {
 }
 
 .fs-numero2 {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .border-img-bg {
@@ -117,13 +118,31 @@ span > a {
     object-fit: contain;
 }
 
+.title-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .backg-image {
-    background-image: url("../../img/IMG_1491.JPG");
+    background-image: url("../../img/image00013.jpeg");
+    background-position: top;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.4);
     height: 100%;
+    background-size: cover;
 }
 
 .g-bg-secondary2 {
     background-color: var(--primary-color);
+}
+
+.img-width-icon {
+    width: 180px;
+}
+
+.dropdown-item {
+    white-space: normal!important;
 }
 
 @media screen and (max-width: 768px) {
@@ -149,7 +168,7 @@ span > a {
     }
 
     .border-img-bg {
-        border-bottom: 77px solid var(--primary-color);
+        border-bottom: 100px solid var(--primary-color);
     }
 
     .g-pb-20 {
@@ -157,7 +176,12 @@ span > a {
     }
 
     .backg-image {
-        background-size: 450px;
+        background-size: cover;
         background-repeat: no-repeat;
+        background-position-x: 65%;
+    }
+
+    .img-width-icon {
+        width: 60px;
     }
 }
