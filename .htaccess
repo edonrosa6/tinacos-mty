@@ -1,3 +1,4 @@
 RewriteEngine On
+ErrorDocument 404 /404.html
 RewriteCond %{HTTP_HOST} ^tinacosmty.com.mx [NC]
 RewriteRule ^(.*)$ http://www.tinacosmty.com.mx/$1 [L,R=301]
